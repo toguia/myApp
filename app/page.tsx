@@ -24,8 +24,8 @@ export default function App() {
     });
   }
 
-  function deleteTodo(id: String){
-    client.models.Todo.delete({id})
+  function deleteTodo(id: string){
+    client.models.Todo.delete({ id })
   }
 
   useEffect(() => {
